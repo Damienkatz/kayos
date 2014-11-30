@@ -13,6 +13,7 @@ MKDIR_P = mkdir -p
 BINDIR = bin
 BINDIR_TESTS = bin-test
 LIBBASE = kayos
+CFLAGS += -L /usr/local/lib
 
 ifdef DEBUG
 	CFLAGS += -DKAYOS_DEBUG
